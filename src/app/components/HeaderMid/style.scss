@@ -1,0 +1,31 @@
+.header-mid {
+    height: 100px;
+    background-color: #302021;
+    position: relative;
+}
+.header-inner{
+    width: 1371px;
+    height: auto;
+    /* background: black; */
+    margin-left: 281px;
+}
+.header-mid .header-inner img{
+    height: 100px;
+    width: 112px;
+}
+.header-mid .header-inner ul{
+    width: 40%;
+    position: absolute;
+    height: auto;
+    margin-top: -82px;
+    margin-left: 569px;
+}
+.font-color{
+    color: white;
+}
+.Cart-Header{
+    width: 22%;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -56px;
+}
