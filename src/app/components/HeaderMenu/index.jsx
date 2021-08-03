@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.scss';
 
-
 function HeaderMenu(props) {
     return (
         <div className="header-menu">
@@ -10,7 +9,6 @@ function HeaderMenu(props) {
                     <a href="#home">Trang Chủ</a>
                     <a href="#news">Giới thiệu</a>
                     <div class="dropdown">
-                        
                         <button class="dropbtn">Cửa Hàng
                             <i class="fa fa-caret-down"></i>
                         </button>
@@ -24,11 +22,7 @@ function HeaderMenu(props) {
                     <a href="#news">Liên hệ</a>
                 </div>
             </div>
-
-
         </div>
-
-
     );
 }
 
