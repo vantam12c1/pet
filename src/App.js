@@ -18,13 +18,12 @@ function App() {
       <div className="body-content">
         <Switch>
           <Redirect from="/home" to="/" />
-          <Route path="/about" component={AboutFeature} exact />
-          <Route path="/" component={HomeFeature} />    
+          <Route path="/about" component={AboutFeature} exact />          
           <Route path="/store" component={StoreFeature} exact />
           <Route path="/news" component={NewsFeature} exact/>
           <Route path="/contact" component={ContactFeature} exact/>
           <Route path="/cart" component={CartFeature} />
-
+          <Route path="/" component={HomeFeature} />    
         </Switch>
       </div>
       <Footer />

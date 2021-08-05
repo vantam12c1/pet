@@ -95,7 +95,7 @@ function HeaderMid(props) {
               <li className="call">
                 <p>
                   <i
-                    className="fas fa-phone-volume fa-spin icon"
+                    className="fas fa-phone-volume icon"
                     style={styleIconCall}
                   ></i>
                   <span style={styleSpan}> Call us</span>
