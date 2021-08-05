@@ -1,0 +1,23 @@
+.banner-top{
+    // max-width: 100%;
+    position:relative;
+    .bg__img{
+        height:100vh;
+    }
+    .text-center{
+        text-align:center;
+        position:absolute;
+        top:45%;
+        margin:0 auto;
+        left:25%;
+        line-height:50px;
+        width:50%;
+        h2.text-top{
+            color:#fff;
+            font-size:40px;
+        }
+        p.text-bot{
+            color:#fff;
+        }
+    }
+}
