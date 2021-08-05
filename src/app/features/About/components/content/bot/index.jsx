@@ -66,7 +66,6 @@ function ContentBot(props) {
                 </p>
               </li>
               <li>
-                {" "}
                 <p style={{ color: "rgb(79, 74, 74)" }}>
                   Chúng tôi tạo ra các chủ đề của chúng tôi với suy nghĩ của
                   khách hàng, do đó nhóm của chúng tôi làm việc chăm chỉ để cung

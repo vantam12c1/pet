@@ -9,6 +9,8 @@ import StoreFeature from './app/features/Store';
 import NewsFeature from './app/features/News';
 import ContactFeature from './app/features/Contact';
 import CartFeature from './app/features/Contact';
+import LoginForm from './app/features/Auth/Login';
+import SignUpForm from './app/features/Auth/Register';
 
 function App() {
   return (
@@ -18,13 +20,16 @@ function App() {
       <div className="body-content">
         <Switch>
           <Redirect from="/home" to="/" />
-          <Route path="/about" component={AboutFeature} exact />          
+          <Route path="/about" component={AboutFeature} exact />
           <Route path="/store" component={StoreFeature} exact />
-          <Route path="/news" component={NewsFeature} exact/>
-          <Route path="/contact" component={ContactFeature} exact/>
+          <Route path="/news" component={NewsFeature} exact />
+          <Route path="/contact" component={ContactFeature} exact />
           <Route path="/cart" component={CartFeature} />
-          <Route path="/" component={HomeFeature} />    
+          <Route path="/login" component={LoginForm} exact />
+          <Route path="/register" component={SignUpForm} exact />
+          <Route path="/" component={HomeFeature} />
         </Switch>
+
       </div>
       <Footer />
     </div>

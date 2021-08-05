@@ -1,4 +1,5 @@
 import React from "react";
+import  '../../features/Auth/Login';
 import "./style.scss";
 import {
   BrowserRouter as Router,
@@ -6,8 +7,12 @@ import {
   Route,
   Link,
   NavLink,
+  Redirect,
 } from "react-router-dom";
-import "./style.scss";
+import LoginForm from "../../features/Auth/Login";
+import SignUpForm from "../../features/Auth/Register";
+
+
 function HeaderTop(props) {
   const styleStrong = {
     fontWeight: "bold",
@@ -60,8 +65,13 @@ function HeaderTop(props) {
                 fontWeight: "bold",
               }}
             ></i>{" "}
-            <Link to="#">Login</Link>
-            <Link to="#">/ Register</Link>
+           
+            {/* <Route path="/login" component={LoginForm}></Route> */}
+            <Link to="/login" target="_self" >Login</Link>
+            <span> /</span>
+            <Link to="/register"> Register</Link>
+            
+            
           </div>
         </div>
       </div>
