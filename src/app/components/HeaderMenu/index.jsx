@@ -1,12 +1,6 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
-import "./style.scss";
+import React from 'react';
+import { NavLink, Link } from "react-router-dom";
+import './style.scss';
 
 function HeaderMenu(props) {
   return (
@@ -15,38 +9,19 @@ function HeaderMenu(props) {
         <div className="navbar">
           <ul className="menu__list">
             <li className="menu-item">
-              <NavLink
-                to="/"
-                exact
-                activeStyle={{
-                  color: "#ff5440",
-                }}
-              >
+              <NavLink to="/" exact>
                 trang chủ
               </NavLink>
             </li>
             <li className="menu-item">
-              <NavLink
-                to="/about"
-                exact
-                activeStyle={{
-                  color: "#ff5440",
-                }}
-              >
+              <NavLink to="/about" exact>
                 giới thiệu
               </NavLink>
             </li>
             <li className="menu-item dropdown">
-              <NavLink
-                to="/store"
-                exact
-                activeStyle={{
-                  color: "#ff5440",
-                }}
-                className="dropbtn  "
-              >
+              <NavLink  to="/store" exact className="dropbtn">
                 cửa hàng <i className="fas fa-chevron-down"></i>
-              </NavLink>
+              </NavLink>            
               <ul className="dropdown-content">
                 <li>
                   <Link to="#">Giỏ hàng </Link>
@@ -60,24 +35,12 @@ function HeaderMenu(props) {
               </ul>
             </li>
             <li className="menu-item">
-              <NavLink
-                to="/news"
-                exact
-                activeStyle={{
-                  color: "#ff5440",
-                }}
-              >
+              <NavLink to="/news" exact>                
                 tin tức
               </NavLink>
             </li>
             <li className="menu-item">
-              <NavLink
-                to="/contact"
-                exact
-                activeStyle={{
-                  color: "#ff5440",
-                }}
-              >
+              <NavLink to="/contact" exact>                
                 liên hệ
               </NavLink>
             </li>
@@ -85,19 +48,6 @@ function HeaderMenu(props) {
         </div>
       </div>
     </div>
-    // <div className="header-menu">
-    //   <div className="grid wide">
-    //     <div className="row navbar-list">
-    //       <div className="col l-5 navbar-left" >
-    //         <div className="logo">
-    //           <img src=""></img>
-    //         </div>
-    //       </div>
-    //       <div className="col l-7 navbar-right"></div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
-
 export default HeaderMenu;

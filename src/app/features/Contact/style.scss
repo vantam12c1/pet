@@ -1,0 +1,117 @@
+body{
+    background-color:#f6f5f3;
+}
+.Contact-Header{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+
+    background-image: url(http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/pets4-1170x780.jpg);
+    background-position: 31% 32%;
+    filter:brightness(90%); 
+    position: relative;
+}
+
+.Contact-Header-Collum{
+    font-family: "Roboto Slab", sans-serif;
+    width: 20%;
+    margin-left: 40%;
+    flex-direction: column;
+    margin-top: 2%;
+
+}
+.Contact-title{
+    color:#ffffff;
+    text-shadow: 2px 2px black;
+
+    line-height: 1.6;
+}
+
+//Contact-body
+.Contact-Body{
+    display: flex;
+
+    height: 697px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 66px;
+    margin-left: 13%;
+}
+
+.contact-all{
+ 
+    width: calc(35% - 1%);
+    height: 600px;
+    margin-left: 1%;
+    flex-direction: column;
+}
+.contact-info{
+ 
+    
+    height: 20%;
+}
+.contact-title{
+    flex-direction: column;
+    letter-spacing: 0.05em;
+    line-height: 1.3em;
+    margin: 11px;
+    text-align: center;
+    height: 12%;
+}
+
+.icon-title{
+
+    margin: 17px;
+}
+
+.contact-info{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.contact-avatar{
+    width: 130px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.contact-user-top{
+    margin: 20px;
+    flex: 1;
+}
+.contact-form{
+
+    width: 100%;
+    display: flex;
+    height: 60%;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+.textform{
+    width:calc(50% - 10px) ;
+    margin-left: 10px;
+    height: 2.507em;
+    font-size: -0.03em;
+    float: left;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 0 .75em;
+}
+.textform-big{
+    width:calc(100% - 10px) ;
+    margin-left: 10px;
+    height: 7.507em;;
+    margin-top: 15px;
+    font-size: .97em;
+    border: 1px solid #ddd;
+    padding: 0.75em;
+}
+.submit{
+    margin-left: 28%;
+    color: white;
+    background-color: #446084;
+    height: 10%;
+    min-width: 45%;
+    margin-top: 15px;
+}

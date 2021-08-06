@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../../../assets/images/Pet-Care-1.png'
 import "./style.scss";
 
@@ -15,7 +9,7 @@ function HeaderMid(props) {
       <div className="grid wide">
         <div className="row navbar-list">
           <div className="col l-5 navbar-left">
-            <img className="logo" src={logo}/>              
+            <Link to="/"><img className="logo" src={logo}/></Link>            
           </div>
           <div className="col l-7 navbar-right">
             <ul>
