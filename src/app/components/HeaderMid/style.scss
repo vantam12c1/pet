@@ -1,117 +1,75 @@
 @import '../../../assets/scss/base';
 
-// .header-mid {
-//     height: 100px;
-//     background-color: #302021;
-//     position: relative;
-// }
-// .header-inner{
-//     width: 1371px;
-//     height: auto;
-//     /* background: black; */
-//     margin-left: 281px;
-// }
-// .header-mid .header-inner img{
-//     height: 100px;
-//     width: 112px;
-// }
-// .header-mid .header-inner ul{
-//     width: 40%;
-//     position: absolute;
-//     height: auto;
-//     margin-top: -82px;
-//     margin-left: 569px;
-// }
-// .font-color{
-//     color: white;
-// }
-// .Cart-Header{
-//     width: 22%;
-//     margin-left: 50%;
-//     position: absolute;
-//     margin-top: -56px;
-// }
-
-// .header-mid{
-//     background-color: #302021;
-//     padding-top:20px;
-//     .container{
-//         .header-main{
-//             width:100%;
-//             .header-main-list{
-//                 display:flex;
-//                 justify-content: space-between;
-//                 .header-main-img{
-//                     margin-bottom:10px;
-//                 }
-//                 .header-main-nav-right{
-//                     width:100%;
-//                     margin-left:100px;
-//                     display:flex;
-//                     justify-content: space-around;
-//                     list-style:none;
-//                     position:relative;
-//                     &:nth-child(1),:nth-child(2){
-//                         margin-left:80px;
-//                     }
-//                     i.fas.fa-phone-volume {
-//                         position: absolute;
-//                         transform: translateX(63px);
-//                     }
-//                     .cart-hover:hover{
-//                         color: #ffca44 !important;
-//                     }
-
-//                 }
-//             }
-//         }
-//     }
-// }
-
-.header-mid{
+.header-mid {
     background-color: #302021;
-    .grid{
-        &.wide{
-            .navbar-list{
+    .logo {
+        width: 80px;
+        height: auto;
+        object-fit: cover;
+    }
+    .grid {
+        &.wide {
+            .navbar-list {
                 position: relative;
-                .navbar-left{
-                    // margin-left:-95px;
-                    // position: absolute;
-                    // bottom: 0;
-                    // left: 0;
-                  transform: translateX(-39%)
+                align-items: center;
+                .navbar-left {
+                    transform: translateX(-39%)
                 }
             }
-            .navbar-right{
-            //    align-items: center;
-            margin-top:40px;
-               ul{
-                   display:flex;
-                   justify-content: space-between;
-                   align-items: center;
-                   li{
-                       margin-left:10px;
-                       list-style: none;
-                   }
-                   .cart-hover{
-                       text-decoration: none;
-                       &:hover{
-                        color: #ffca44 !important;
-                       }
-                   }
-               }
-               .icon{
-                border: 2px solid #ffca44;
-                border-radius: 50%;
-                padding: 10px;
-                background-color: transparent;
-                // animation-name: tada;
-                // animation-duration: 3s;
-                // animation-iteration-count: infinite;
-               }
-               li.call{
-                   transform: translateX(-77px)
-               }
+
+            .navbar-right {              
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    li {
+                        margin-left: 10px;
+                        list-style: none;
+                        span {
+                            color: #fff;
+                        }
+                    }
+
+                    .cart-hover {
+                        text-decoration: none;
+
+                        &:hover {
+                            color: #ffca44 !important;
+                        }
+                    }
+                }
+                
+                .icon {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    text-align: center;
+                    line-height: 35px; 
+                    border: 1px solid #ffca44;
+                    border-radius: 50%;                         
+                    i {
+                        color: #ffca44;
+                        font-size: 15px;
+                    }                               
+                }
+
+                li.call {
+                    transform: translateX(-77px);
+                    span:nth-child(2) {
+                        font-size: 16px;
+                        color: #a19e9e;
+                        margin: {
+                            left: 15px;
+                            right: 5px;
+                        };
+                    }
+                }
+                li.cart {
+                    .icon {
+                        margin-left: 15px;
+                    }
+                }
             }
         }
     }

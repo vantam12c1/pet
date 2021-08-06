@@ -20,13 +20,13 @@ function App() {
       <div className="body-content">
         <Switch>
           <Redirect from="/home" to="/" />
-          <Route path="/about" component={AboutFeature} exact />
-          <Route path="/store" component={StoreFeature} exact />
-          <Route path="/news" component={NewsFeature} exact />
-          <Route path="/contact" component={ContactFeature} exact />
+          <Route path="/about" component={AboutFeature} />
+          <Route path="/store" component={StoreFeature} />
+          <Route path="/news" component={NewsFeature} />
+          <Route path="/contact" component={ContactFeature} />
           <Route path="/cart" component={CartFeature} />
-          <Route path="/login" component={LoginForm} exact />
-          <Route path="/register" component={SignUpForm} exact />
+          <Route path="/login" component={LoginForm} />
+          <Route path="/register" component={SignUpForm} />
           <Route path="/" component={HomeFeature} />
         </Switch>
 

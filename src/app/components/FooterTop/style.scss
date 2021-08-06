@@ -1,105 +1,126 @@
 @import '../../../assets/scss/base';
 
-.grid{
-    &.wide{
-        .row{
-            
-            .logo__footer{
+.grid {
+  &.wide {
+    .row {
 
-                .logo__footer--image {
-                    text-align: left;
-                }
-                .text-logo>li>p{
-                    text-align:left;
-                    color:#a4a4a4;
-                }
-                .text-logo{
-                    list-style:none;
-                }
-                .simple-search {
-                    width: 100%;
-                    text-align: left;
-                }
-            }  
-            .contact__footer{
-                .text-contact{
-                    list-style:none;
-                }
-                .text-contact>li>p{
-                    text-align:left;
-                    color:#a4a4a4;
-                }
-            }
-            .help__footer{
-                .text-help>li{
-               
-                    text-align:left;
-                   
-                }
-                .text-help>li>a{
-                    color:#f1f1f1;
-                
-                    text-decoration:none;
-                }
-                .text-help{
-                    list-style:none;
-                }
-                .text-help a:hover{
-                    color: #ffca44 !important;
-                }
+      .logo__footer {
 
-            }
-            .info__footer{
-                .text-info{
-                    list-style:none
-                }
-                .text-info>li>p{
-                    text-align:left;
-                    color:#a4a4a4;
-                }
-
-            }
-            h3 {
-                color: #fff;
-                font-size: 20px;
-                text-align: left;
-            }
-            .text-header{
-                margin-bottom:20px;
-            }
+        .logo__footer--image {
+          text-align: left;
         }
+
+        .text-logo>li>p {
+          text-align: left;
+          color: #a4a4a4;
+        }
+
+        .text-logo {
+          list-style: none;
+        }
+
+        .simple-search {
+          width: 100%;
+          text-align: left;
+        }
+      }
+
+      .contact__footer {
+        .text-contact {
+          list-style: none;
+        }
+
+        .text-contact>li>p {
+          text-align: left;
+          color: #a4a4a4;
+        }
+      }
+
+      .help__footer {
+        .text-help>li {
+
+          text-align: left;
+
+        }
+
+        .text-help>li>a {
+          color: #f1f1f1;
+
+          text-decoration: none;
+        }
+
+        .text-help {
+          list-style: none;
+        }
+
+        .text-help a:hover {
+          color: #ffca44 !important;
+        }
+
+      }
+
+      .info__footer {
+        .text-info {
+          list-style: none
+        }
+
+        .text-info>li>p {
+          text-align: left;
+          color: #a4a4a4;
+        }
+
+      }
+
+      h3 {
+        color: #fff;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      .text-header {
+        margin-bottom: 20px;
+      }
     }
-}
-
-
-li{
-    line-height:30px;
-}
-
-  button {
-    cursor: pointer;
   }
+}
+
+
+li {
+  line-height: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-search {
+  position: relative;
+  width: 100%;
   
-          .button-search {
-            width: 100%;
-            display: flex;
-            // margin-top:10px;
-            button{
-                padding: 10px;
-                color: white;
-                flex-shrink: 0;
-                border-radius: 5px;
-                background-color: #fff;
-                margin-left: 0;
-            }
-            input{
-                width: 100%;
-                padding: 15px;
-                background-color: #fafafa;
-                border-radius: 5px;
-                -webkit-appearance: none;
-                font-size: 14px;
-                font-weight: 500;
-            }
-          }
-     
+  button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: transparent; 
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    i {
+      color: #069e06;
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+  }
+}

@@ -2,8 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 FooterTop.propTypes = {};
 
 function FooterTop(props) {
@@ -30,7 +28,7 @@ function FooterTop(props) {
               <div className="button-search">
                 <input type="text" placeholder="Email...." />
                 <button type="submit" className="btn-submit">
-                  <i className="fas fa-search"></i>
+                  <i className="fa fa-paper-plane"></i>
                 </button>
               </div>
             </li>
@@ -39,7 +37,6 @@ function FooterTop(props) {
         <div className="col l-3 contact__footer">
           <ul className="text-contact">
             <div className="text-header">
-              {/* <FontAwesomeIcon icon={faCoffee} /> */}
               <h3>Liên hệ</h3>
             </div>
             <li>
