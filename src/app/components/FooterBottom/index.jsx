@@ -16,7 +16,7 @@ function FooterBottom(props) {
       <p>
         © Bản quyền thuộc về . Thiết kế website
         <img src="https://mona.solutions/logo.png" style={styleImage} />
-        <Link to="#">
+        <Link to="/">
           <strong>Monda Media</strong>
         </Link>
       </p>

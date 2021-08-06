@@ -27,10 +27,10 @@ function FooterTop(props) {
               <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
             </li>
             <li>
-              <div class="button-search">
+              <div className="button-search">
                 <input type="text" placeholder="Email...." />
                 <button type="submit" className="btn-submit">
-                  <i class="fa fa-search"></i>
+                  <i className="fas fa-search"></i>
                 </button>
               </div>
             </li>

@@ -10,4 +10,12 @@
         font-size: 14px;
         color: rgb(108, 100, 101);
     }
+    a{
+        text-decoration: none;
+        color: rgb(108, 100, 101);
+        &:hover{
+            color: #ffca44 !important;
+        }
+    }
+    
 }

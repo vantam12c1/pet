@@ -1,0 +1,21 @@
+@import "../../../../../../assets/scss/base";
+
+.content-bot {
+    .grid {
+        &.wide {
+            .content-bot-list {
+                .content-bot-item {
+                    ul > li > .icon {
+                        border: 1px solid grey;
+                        border-radius: 50%;
+                        padding: 20px;
+                        background-color: #f5f7f9;
+                    }
+                    ul>li{
+                        margin-bottom:20px;
+                    }
+                }
+            }
+        }
+    }
+}
