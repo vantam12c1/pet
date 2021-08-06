@@ -5,6 +5,9 @@ import HomeFeature from './app/features/Home';
 import Header from './app/components/Header';
 import Footer from './app/components/Footer';
 import AboutFeature from './app/features/About';
+import ContactFeature from './app/features/Contact';
+
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
         <Switch>
           <Redirect from="/home" to="/" />
           <Route path="/about" component={AboutFeature} />
+          <Route path="/contact" component={ContactFeature} />
           <Route path="/" component={HomeFeature} />        
         </Switch>
       </div>
