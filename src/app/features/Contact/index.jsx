@@ -8,7 +8,6 @@ import ContactContent from "./components/ContactContent";
 import ContactHeader from "./components/ContactHeader";
 
 function ContactFeature(props) {
-  const key = "AIzaSyA8KMc18WWbjQk5CGjG5zBAjM4Q_KuXe00";
   return (
     <div className="contact">
       <div className="contact-header">

@@ -68,7 +68,7 @@ function FooterTop(props) {
               <Link to="#">Vận chuyển và đổi trả hàng </Link>
             </li>
             <li>
-              <Link to="#">Liên hệ</Link>
+              <Link to="/contact">Liên hệ</Link>
             </li>
           </ul>
         </div>

@@ -1,5 +1,3 @@
-// @import '../../../assets/scss/base';
-
 .header-mid {
     background-color: #302021;
     .logo {
@@ -13,11 +11,11 @@
                 position: relative;
                 align-items: center;
                 .navbar-left {
-                    transform: translateX(-39%)
+                    transform: translateX(-39%);
                 }
             }
 
-            .navbar-right {              
+            .navbar-right {
                 ul {
                     display: flex;
                     justify-content: space-between;
@@ -28,6 +26,7 @@
                         list-style: none;
                         span {
                             color: #fff;
+                            font-weight: bold;
                         }
                     }
 
@@ -40,19 +39,19 @@
                         }
                     }
                 }
-                
+
                 .icon {
                     display: inline-block;
                     width: 35px;
                     height: 35px;
                     text-align: center;
-                    line-height: 35px; 
+                    line-height: 35px;
                     border: 1px solid #ffca44;
-                    border-radius: 50%;                         
+                    border-radius: 50%;
                     i {
                         color: #ffca44;
                         font-size: 15px;
-                    }                               
+                    }
                 }
 
                 li.call {
@@ -63,12 +62,64 @@
                         margin: {
                             left: 15px;
                             right: 5px;
-                        };
+                        }
                     }
                 }
                 li.cart {
                     .icon {
                         margin-left: 15px;
+                    }
+                }
+                li.dropdown-search {
+                    position: relative;
+                    display: inline-block;
+                    .in-search {
+                        padding: 10px 10px;
+                        border-radius: 5px;
+                    }
+                    .dropdown-content-search {
+                      
+                        position: relative;
+                       
+                        .content-dropdown {
+                            display: none;
+                            position:absolute;
+                            background-color:#ddd;
+                            min-width:300px;
+                            height:70px;
+                         
+                            line-height:70px;
+                            left:-10%;
+                            top:80%;
+                            transform: translate(-90%,21%);
+                            border-radius:5px;
+                            z-index:9999;
+                            &::before {
+                                content: "";
+                                width: 0;
+                                height: 0;
+                                border-left: 12px solid transparent;
+                                border-right: 12px solid transparent;
+                                position: absolute;
+                                left:91%;
+                                top: -15%;
+                                border-bottom: 10px solid #ddd;
+                              }
+                              a.btn-search {
+                                background-color: rgba(165, 42, 42, 0.863);
+                                padding: 10px 12px;
+                                border-radius: 3px;
+                                color: rgb(255, 196, 0);
+                                font-family: "Roboto Slab", sans-serif;
+                            }
+                          
+                        }
+                        .content-dropdown a:hover{
+                            background-color:#ffff;
+                            display: block;
+                        }
+                        .dropdown-search:hover .content-dropdown {display: block !important;}
+                        .dropdown-search:hover .content-dropdown  {background-color: #00bfff;}
                     }
                 }
             }

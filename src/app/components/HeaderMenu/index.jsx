@@ -29,7 +29,7 @@ function HeaderMenu(props) {
               </NavLink>
               <ul className="dropdown-content">
                 <li>
-                  <Link to="#">Giỏ hàng </Link>
+                  <Link to="/cart">Giỏ hàng </Link>
                 </li>
                 <li>
                   <Link to="#">Thanh toán</Link>
