@@ -1,4 +1,4 @@
-@import '../../../assets/scss/base';
+// @import '../../../assets/scss/base';
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
@@ -54,6 +54,7 @@
       align-items: center;
       justify-content: center;
       min-height: 50px;
+      font-weight: bold;
 
       li {
         list-style: none;
@@ -65,6 +66,9 @@
         text-decoration: none;
         color: #594129;
       }
+      a {
+        font-weight: bold;
+    }
 
       a {
         &:hover {

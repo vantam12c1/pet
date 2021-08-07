@@ -1,4 +1,4 @@
-@import '../../../assets/scss/base';
+// @import '../../../assets/scss/base';
 
 .header-mid {
     background-color: #302021;
@@ -31,8 +31,9 @@
                         }
                     }
 
-                    .cart-hover {
+                    a.cart-hover {
                         text-decoration: none;
+                        text-transform: uppercase;
 
                         &:hover {
                             color: #ffca44 !important;

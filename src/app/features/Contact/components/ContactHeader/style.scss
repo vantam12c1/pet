@@ -1,0 +1,27 @@
+// @import'../../../../../assets/scss/base';
+
+.header-content{
+   .text-contact{
+       text-align:center;
+       color: #f1f1f1; 
+       text-transform: uppercase; 
+       padding-top:50px;
+   } 
+   .breadcrumb{
+       display:flex;
+        position:absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-weight:bold;
+       font-size:20px;
+       text-transform: uppercase;
+       margin-top:20px;
+        color: #f1f1f1; 
+       a{
+        color:#fff;
+
+      
+       }
+   }
+}
