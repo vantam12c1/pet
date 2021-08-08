@@ -66,9 +66,14 @@
         color: #594129;
       }
 
-      a:hover {
-        color: #ff5440;
-      }
+      a {
+        &:hover {
+          color: #ff5440;
+        }
+        &.active {
+          color: #ff5440;
+        }
+      }    
     }
   }
 }
