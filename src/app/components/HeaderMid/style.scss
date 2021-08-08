@@ -72,11 +72,7 @@
               &.dropdown-search {
                 position: relative;
 
-                .dropdown-icon {
-                  &:hover {
-                    color: red !important;
-                  }
-                }                
+                          
               }
               &:hover .dropdown-content-search {
                 display: block !important;

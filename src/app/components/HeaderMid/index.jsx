@@ -25,9 +25,9 @@ function HeaderMid(props) {
               <li className="navbar__right--item call">
                 <p>
                   <span className="icon">
-                    <i className="fas fa-phone-volume"></i>
+                    <i className="fas fa-phone-volume"> </i>
                   </span>
-                  <span className="txt-call">Call us</span>
+                  <span className="txt-call"> Call us</span>
                   <span className="txt-hot-line"> 076 922 0162</span>
                 </p>
               </li>
