@@ -1,16 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./style.scss";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
-  Redirect,
-} from "react-router-dom";
-
-ContactHeader.propTypes = {};
+import { Link } from "react-router-dom";
 
 function ContactHeader(props) {
   return (

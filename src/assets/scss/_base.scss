@@ -16,6 +16,10 @@ a {
         text-decoration: none;
     }
 }
+input, button {
+    border: none;
+    outline: none;
+}
 .container {
     max-width: 100%;
     padding: 0 50px;

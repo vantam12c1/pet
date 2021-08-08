@@ -1,10 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
-
 import { FaMapMarker, FaPhoneAlt, FaMailBulk, FaSkype } from "react-icons/fa";
 import Map from "../../Map";
 import { GrDiamond } from "react-icons/gr";
-ContactContent.propTypes = {};
 
 function ContactContent(props) {
   const key = "AIzaSyA8KMc18WWbjQk5CGjG5zBAjM4Q_KuXe00";
