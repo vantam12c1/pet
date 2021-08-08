@@ -18,14 +18,10 @@ function ContactHeader(props) {
       <h1 className="text-contact"> liên hệ</h1>
       <div className="breadcrumb">
         <Link to="/">
-          <p className="home-breadcrumb" style={{ color: "#f1f1f1" }}>
-            trang chủ
-          </p>
+          <p className="home-breadcrumb">trang chủ</p>
         </Link>
         <span>/ </span>
-        <p className="contact-breadcrumb" style={{ color: "#fff" }}>
-          liên hệ
-        </p>
+        <p className="contact-breadcrumb">liên hệ</p>
       </div>
     </div>
   );
