@@ -96,7 +96,10 @@
         }
       ],
       "code": "ao-khoac-mua-dong",
-      "cate": ["demo","thoi-trang-cho-cho"],
+      "cate": [
+        "demo",
+        "thoi-trang-cho-cho"
+      ],
       "quantity": 1000,
       "list_pagination_img": [
         {
@@ -199,7 +202,10 @@
         "theo dõi và dấu vết"
       ],
       "code": "giuong-thu-cung",
-      "cate": ["uncategorized","thuc-an-cho-meo"],
+      "cate": [
+        "uncategorized",
+        "thuc-an-cho-meo"
+      ],
       "quantity": 300,
       "list_pagination_img": [
         {
@@ -355,12 +361,15 @@
         }
       ],
       "code": "van-chuyen-linh-hoat",
-      "cate": ["demo","van-chuyen-meo"],
-      "quantity":100
+      "cate": [
+        "demo",
+        "van-chuyen-meo"
+      ],
+      "quantity": 100
     },
     {
       "id": 8,
-      "title":"Lồng Irene",
+      "title": "Lồng Irene",
       "price": {
         "amount": 75000,
         "currency": "VND",
@@ -394,15 +403,17 @@
           "thumnail_four": "http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/sec3-5.jpg"
         }
       ],
-      "code":"long-ire",
-      "cate":["demo","sale"],
-      "sale_price":{
+      "code": "long-ire",
+      "cate": [
+        "demo",
+        "sale"
+      ],
+      "sale_price": {
         "amount": 70000,
         "currency": "VND",
         "displayAmount": "70,000 ₫"
       },
-      "quantity":10
-
+      "quantity": 10
     }
   ],
   "posts": [
