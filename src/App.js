@@ -1,16 +1,16 @@
-import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
-import './App.scss';
-import HomeFeature from './app/features/Home';
-import Header from './app/components/Header';
-import Footer from './app/components/Footer';
-import AboutFeature from './app/features/About';
-import StoreFeature from './app/features/Store';
-import NewsFeature from './app/features/News';
-import ContactFeature from './app/features/Contact';
-import CartFeature from './app/features/Cart';
-import LoginForm from './app/features/Auth/Login';
-import SignUpForm from './app/features/Auth/Register';
+import React from "react";
+import { Redirect, Route, Switch } from "react-router-dom";
+import "./App.scss";
+import HomeFeature from "./app/features/Home";
+import Header from "./app/components/Header";
+import Footer from "./app/components/Footer";
+import AboutFeature from "./app/features/About";
+import StoreFeature from "./app/features/Store";
+import NewsFeature from "./app/features/News";
+import ContactFeature from "./app/features/Contact";
+import CartFeature from "./app/features/Cart";
+import LoginForm from "./app/features/Auth/Login";
+import SignUpForm from "./app/features/Auth/Register";
 
 function App() {
   return (

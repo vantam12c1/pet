@@ -14,7 +14,7 @@ function HeaderMid(props) {
                 <img
                   src={logo}
                   alt="Logo"
-                  classNam="logo"
+                  className="logo"
                   style={{ width: "20%" }}
                 />
               </Link>
@@ -55,7 +55,7 @@ function HeaderMid(props) {
                       ></input>
                       <Link to="#" type="button" className="btn-search">
                         <i
-                          class="fas fa-search"
+                          className="fas fa-search"
                           style={{ fontSize: "20px" }}
                         ></i>
                       </Link>
