@@ -1,0 +1,41 @@
+.home-voucher-wrapper {
+  .home-voucher-list {
+    .home-voucher-item {
+      height: 110px;
+      &.item-left {
+        background-color: #fdb745;
+        line-height:30px;
+        .shipping {
+          padding-top: 30px;
+          .link-left {
+            h2 {
+              font-size: 3em;
+              color: #fff;
+            }
+            p {
+              font-size: 14px;
+              color: #fff;
+            }
+          }
+        }
+      }
+      &.item-right {
+        background-color: #a5c21c;
+        line-height:30px;
+        .shipping {
+          padding-top: 30px;
+          .link-right {
+            h2 {
+              font-size: 3em;
+              color: #fff;
+            }
+            p {
+              font-size: 14px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

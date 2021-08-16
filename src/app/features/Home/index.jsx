@@ -9,9 +9,8 @@ function HomeFeature(props) {
   return (
     <>
       <Switch>
-        {/* <Redirect from={path} to={path}></Redirect> */}
         <Route path={path} component={HomeList} exact />
-        <Route path={`${path}/:key`} component={HomeDetail} exact />
+        <Route path={`/:key`} component={HomeDetail} exact />
       </Switch>
     </>
   );

@@ -15,10 +15,12 @@ function FooterTop(props) {
       <div className="row">
         <div className="col l-3 logo__footer">
           <div className="logo__footer--image text-header">
-            <img
-              src="http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/11/Pet-Care-1.png"
-              style={styleImage}
-            ></img>
+            <Link to="/">
+              <img
+                src="http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/11/Pet-Care-1.png"
+                style={styleImage}
+              />
+            </Link>
           </div>
           <ul className="text-logo">
             <li>
@@ -39,17 +41,31 @@ function FooterTop(props) {
             <div className="text-header">
               <h3>Liên hệ</h3>
             </div>
-            <li>
-              <p>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+            <li className="item">
+              <p>
+                {" "}
+                <i className="fas fa-map-marked-alt"></i> 319 C16 Lý Thường
+                Kiệt, Phường 15, Quận 11, Tp.HCM
+              </p>
             </li>
-            <li>
-              <p>076 922 0162</p>
+            <li className="item">
+              <p>
+                {" "}
+                <i className="fas fa-map-marked-alt"></i> 076 922 0162
+              </p>
             </li>
-            <li>
-              <p>demonhunterg@gmail.com mon@mona.media</p>
+            <li className="item">
+              <p>
+                {" "}
+                <i className="far fa-envelope-open"></i> demonhunterg@gmail.com
+                mon@mona.media
+              </p>
             </li>
-            <li>
-              <p>demonhunterp</p>
+            <li className="item">
+              <p>
+                {" "}
+                <i className="fab fa-skype"></i> demonhunterp
+              </p>
             </li>
           </ul>
         </div>

@@ -1,0 +1,146 @@
+.banner-carousel {
+    width: 100%;
+    margin-top: -10px;
+    .banner-carousel-list-first {
+        background-image: url(http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/slider-shop-1.jpg);
+        height: 70vh;
+        background-position: 31%;
+        background-repeat: no-repeat;
+        .banner-carousel-first {
+            max-width: 870px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            position: relative;
+            .fade-in-left
+             {
+                 width:20%;
+                 height:50%;
+                 &.first{
+                    .sale-up  {
+                       
+                         width: 70%;
+                      
+                     }
+                 }
+               
+            }
+            .fade-in-right {
+                margin-top: 50px;
+                color: #fff;
+                opacity: 1 !important;
+                line-height: 40px;
+                transform: translateX(48%);
+
+                .text-list {
+                    text-align: justify;
+                    .txt-new-year {
+                        font-size: 35px;
+                    }
+                    .txt-save {
+                        font-size: 3em;
+                    }
+                    .btn-start {
+                        padding: 10px 12px;
+                        background-color: #ff5440;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    .banner-carousel-list-second {
+        background-image: url(http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/slider-shop-2.jpg);
+        height: 70vh;
+        background-position: 31%;
+        background-repeat: no-repeat;
+        .banner-carousel-second {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding-top: 20px;
+            position: relative;
+            .fade-in-right {
+                &.second{
+                    width: 20%;
+                    height: 50%;
+                }
+                transform: translateX(80%);
+                .sale-up {
+                    width: 85%;
+                }
+            }
+            .fade-in-left {
+                &.second{
+                    width: 100%;
+                    margin-top: 50px;
+                    color: #fff;
+                    opacity: 1 !important;
+                    line-height: 40px;
+                    transform: translateX(-4%);
+                    .text-list {
+                        text-align: justify;
+                        .txt-purchase {
+                            font-size: 35px;
+                        }
+                        .txt-save {
+                            font-size: 3em;
+                        }
+                        .btn-start {
+                            padding: 10px 12px;
+                            background-color: #ff5440;
+                            text-transform: uppercase;
+                            color: #fff;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            
+            }
+        }
+    }
+}
+.swiper-button-prev {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    &:hover {
+        background-color: rgba(0, 0, 255, 0.651);
+        color: white;
+    }
+}
+.swiper-button-next {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: rgba(0, 0, 255, 0.651);
+        color: white;
+    }
+}
+.swiper-slide.swiper-slide-active.first-carousel {
+    opacity: 1;
+}
+.swiper-slide.second-carousel.swiper-slide-active {
+    opacity: 1;
+}
+
+:root {
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-color: #000;
+    --swiper-pagination-color: #000;
+}

@@ -1,0 +1,50 @@
+.sale-item-wrapper {
+    .sale-item-list {
+        .sale-item {
+            margin-top: 10px;
+            .item {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .item-left {
+                    width: 40%;
+                    .sale-img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .item-right {
+                    margin-left: 10px;
+                    text-align: left;
+                    a:hover {
+                        color: red;
+                    }
+                    .link {
+                        color: #334862;
+                        font-weight: bold;
+                    }
+                    .price {
+                        display: flex;
+                        justify-content: space-between;
+                        .currently-price {
+                            text-decoration: line-through;
+                            color: grey;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                        .sale-wrapper {
+                            margin-left: 10px;
+
+                            p.sale-price {
+                                color: #fec748;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
