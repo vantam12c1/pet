@@ -20,7 +20,7 @@ function App() {
       <div className="body-content">
         <Switch>
           <Redirect from="/home" to="/" />
-          <Route path="/about" component={AboutFeature} />
+          <Route path="/about"  component={AboutFeature}  />
           <Route path="/store" component={StoreFeature} />
           <Route path="/news" component={NewsFeature} />
           <Route path="/contact" component={ContactFeature} />

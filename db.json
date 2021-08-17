@@ -1,5 +1,6 @@
 {
-  "store": [{
+  "store": [
+    {
       "id": 1,
       "title": "Áo mưa cho chó",
       "price": {
@@ -23,7 +24,8 @@
         "sale"
       ],
       "quantity": 500,
-      "list_pagination_img": [{
+      "list_pagination_img": [
+        {
           "id": 1,
           "image_one": "http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/Dog-raincoat-1-100x100.jpg"
         },
@@ -44,7 +46,8 @@
     {
       "id": 2,
       "title": "Áo khoác mùa đông",
-      "price": [{
+      "price": [
+        {
           "id": 1,
           "amount": 740000,
           "currency": "VND",
@@ -67,7 +70,8 @@
         "kiểm tra nhanh chóng và dễ dàng",
         "theo dõi và dấu vết"
       ],
-      "color": [{
+      "color": [
+        {
           "id": 1,
           "name_color": "Đa màu"
         },
@@ -76,7 +80,8 @@
           "name_color": "Đen"
         }
       ],
-      "size": [{
+      "size": [
+        {
           "id": 1,
           "name_size": "Nhỏ"
         },
@@ -88,7 +93,8 @@
       "code": "ao-khoac-mua-dong",
       "cate": "demo",
       "quantity": 1000,
-      "list_pagination_img": [{
+      "list_pagination_img": [
+        {
           "id": 1,
           "image_one": "http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/sec3-4.jpg"
         },
@@ -113,7 +119,8 @@
     {
       "id": 3,
       "title": "Bình giữ nhiệt Norm mới",
-      "price": [{
+      "price": [
+        {
           "id": 1,
           "amount": 75000,
           "currency": "VND",
@@ -136,7 +143,8 @@
         "kiểm tra nhanh chóng và dễ dàng",
         "theo dõi và dấu vết"
       ],
-      "size": [{
+      "size": [
+        {
           "id": 1,
           "name_size": "Nhỏ"
         },
@@ -147,7 +155,8 @@
       ],
       "code": "binh-giu-nhiet",
       "cate": "demo",
-      "list_pagination_img": [{
+      "list_pagination_img": [
+        {
           "id": 1,
           "image_one": "http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/sec3-6.jpg"
         },
@@ -187,7 +196,8 @@
       "code": "giuong-thu-cung",
       "cate": "uncategorized",
       "quantity": 300,
-      "list_pagination_img": [{
+      "list_pagination_img": [
+        {
           "id": 1,
           "image_one": " http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/sec3-2.jpg"
         },
@@ -229,7 +239,8 @@
         "demo",
         "sale"
       ],
-      "list_pagination_img": [{
+      "list_pagination_img": [
+        {
           "id": 1,
           "image_one": "http://mauweb.monamedia.net/petcare/wp-content/uploads/2019/10/sec3-1.jpg"
         },
@@ -248,7 +259,8 @@
       ]
     }
   ],
-  "posts": [{
+  "posts": [
+    {
       "id": 1,
       "title": "Một khoảnh khắc tạm thời",
       "short_desc": "Một khoảnh khắc tạm thời Đối với giá của một cái hồ, ti-vi khối lượng ...",
@@ -299,7 +311,8 @@
       "detail_content": "Qua nhiều năm, tôi sẽ đến, ai sẽ nostrud aliquip ra khỏi cô lợi thế của việc tập thể dục, để nỗ lực kích thích kinh tế nếu khu học chánh và tuổi thọ. Muốn trở thành một cơn đau ở cillum cupidatat đã bị chỉ trích trong Duis et dolore magna chạy trốn không tạo ra niềm vui kết quả. Người da đen cupidatat Excepteur không excepteur, được làm dịu tâm hồn, có nghĩa là, họ bỏ nhiệm vụ chung của những người để đổ lỗi cho những rắc rối của bạn. Đối với không có ai từ chối, không thích, hoặc tránh niềm vui riêng của mình, bởi vì nó là niềm vui, nhưng vì họ không biết làm thế nào để theo đuổi niềm vui hợp lý gặp phải hậu quả mà là nỗi buồn của những người đã có."
     }
   ],
-  "comments": [{
+  "comments": [
+    {
       "id": 1,
       "body": "Lorem ipsum dolor sit Amet, consectetur adipiscing elit, sed tempor và sức sống, do đó lao động và nỗi buồn, một số điều quan trọng cần làm eiusmod. Trong những năm tới, người tập thể dục nostrud",
       "postId": 1,
@@ -321,7 +334,8 @@
       "id_user": 3
     }
   ],
-  "profile": [{
+  "profile": [
+    {
       "id": 1,
       "name": "Thanh Ngân",
       "avatar": "https://2.gravatar.com/avatar/bb90dcb0ceabfc8bf10c550f1ee95ee7?s=70&d=mm&r=g"
@@ -336,5 +350,13 @@
       "name": "Thanh Thanh",
       "avatar": "https://2.gravatar.com/avatar/bb90dcb0ceabfc8bf10c550f1ee95ee7?s=70&d=mm&r=g"
     }
+  ],
+  "users": [
+    {
+      "gmail": "kien159@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+
   ]
 }
