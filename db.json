@@ -466,5 +466,13 @@
       "name": "Thanh Thanh",
       "avatar": "https://2.gravatar.com/avatar/bb90dcb0ceabfc8bf10c550f1ee95ee7?s=70&d=mm&r=g"
     }
+  ],
+  "users": [
+    {
+      "gmail": "kien159@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+
   ]
 }
