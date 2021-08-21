@@ -8,7 +8,9 @@ import {
   Link,
   NavLink,
   Redirect,
+  useHistory,
 } from "react-router-dom";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import LoginForm from "../../features/Auth/Login";
 import SignUpForm from "../../features/Auth/Register";
 
@@ -16,7 +18,12 @@ function HeaderTop(props) {
   const styleStrong = {
     fontWeight: "bold",
   };
-
+  const history = useHistory();
+  let user = JSON.parse(localStorage.getItem('user-info'))
+  function logOut() {
+    localStorage.clear();
+    history.push('/login');
+  }
   return (
     <div className="header-top">
       <div className="container">
@@ -56,18 +63,33 @@ function HeaderTop(props) {
             ></i>{" "}
             info@themerex.ne
           </div>
+
           <div className="item">
-            <i
-              className="fas fa-arrow-right"
-              style={{
-                fontSize: "25px",
-                fontWeight: "bold",
-              }}
-            ></i>{" "}
-            {/* <Route path="/login" component={LoginForm}></Route> */}
-            <Link to="/login">Login</Link>
-            <span> /</span>
-            <Link to="/register"> Register</Link>
+            
+            <Navbar>
+              {localStorage.getItem('user-info') ?
+                <Nav>
+
+                  <NavDropdown title={user && user.username}>
+                    <NavDropdown.Item onClick={logOut}>
+                      Logout
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </Nav> : <div className="item">
+                  <i
+                    className="fas fa-arrow-right"
+                    style={{
+                      fontSize: "25px",
+                      fontWeight: "bold",
+                    }}
+                  ></i>{" "}
+                  {/* <Route path="/login" component={LoginForm}></Route> */}
+                  <Link to="/login">Login</Link>
+                  <span> /</span>
+                  <Link to="/register"> Register</Link>
+                </div>}
+            </Navbar>
+
           </div>
         </div>
       </div>

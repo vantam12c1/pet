@@ -18,4 +18,11 @@
         }
     }
     
+    .nav{
+        text-decoration: none;
+        color: rgb(108, 100, 101);
+        &:hover{
+            color: #ffca44 !important;
+        }
+    } 
 }
